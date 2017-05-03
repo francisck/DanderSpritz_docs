@@ -1,0 +1,42 @@
+# uncompyle6 version 2.9.10
+# Python bytecode 2.7 (62211)
+# Decompiled from: Python 2.7.10 (default, Feb  6 2017, 23:53:20) 
+# [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)]
+# Embedded file name: __init__.py
+import framework.cp
+MCL_SUCCESS = framework.cp.LLA_SUCCESS
+MCL_ERROR_OUT_OF_MEMORY = framework.cp.LLA_ERROR_OUT_OF_MEMORY
+MCL_ERROR_INVALID_PARAM = framework.cp.LLA_ERROR_INVALID_PARAM
+MCL_ERROR_NOT_SUPPORTED = framework.cp.LLA_ERROR_NOT_SUPPORTED
+MCL_ERROR_NO_PERMISSION = framework.cp.LLA_ERROR_NO_PERMISSION
+MCL_ERROR_TIMEOUT = framework.cp.LLA_ERROR_TIMEOUT
+MCL_ERROR_NOT_FOUND = framework.cp.LLA_ERROR_NOT_FOUND
+MCL_ERROR_NOT_INITIALIZED = framework.cp.LLA_ERROR_NOT_INITIALIZED
+MCL_ERROR_BUSY = framework.cp.LLA_ERROR_BUSY
+MCL_ERROR_BAD_ADDRESS = framework.cp.LLA_ERROR_BAD_ADDRESS
+MCL_ERROR_LIMIT_EXCEEDED = framework.cp.LLA_ERROR_LIMIT_EXCEEDED
+MCL_ERROR_INVALID_STACKSIZE = framework.cp.LLA_ERROR_INVALID_STACKSIZE
+MCL_ERROR_INVALID_PRIORITY = framework.cp.LLA_ERROR_INVALID_PRIORITY
+MCL_ERROR_INVALID_ATTRIBUTE = framework.cp.LLA_ERROR_INVALID_ATTRIBUTE
+MCL_ERROR_WILL_DEADLOCK = framework.cp.LLA_ERROR_WILL_DEADLOCK
+MCL_ERROR_TIME_TOO_LARGE = framework.cp.LLA_ERROR_TIME_TOO_LARGE
+MCL_ERROR_THREAD_FAILURE = framework.cp.LLA_ERROR_THREAD_FAILURE
+MCL_ERROR_UNKNOWN = 4294967294L
+errorStrings = {MCL_ERROR_OUT_OF_MEMORY: 'MCL: Memory allocation failed',
+   MCL_ERROR_INVALID_PARAM: 'MCL: Invalid parameter(s)',
+   MCL_ERROR_NOT_SUPPORTED: 'MCL: Not supported',
+   MCL_ERROR_NO_PERMISSION: 'MCL: Permission check failed',
+   MCL_ERROR_TIMEOUT: 'MCL: Operation timed out',
+   MCL_ERROR_NOT_FOUND: 'MCL: Object not found',
+   MCL_ERROR_NOT_INITIALIZED: 'MCL: Object not initialized',
+   MCL_ERROR_BUSY: 'MCL: Object is busy',
+   MCL_ERROR_BAD_ADDRESS: 'MCL: Invalid pointer',
+   MCL_ERROR_LIMIT_EXCEEDED: 'MCL: Limit exceeded',
+   MCL_ERROR_INVALID_STACKSIZE: 'MCL: Invalid stack size',
+   MCL_ERROR_INVALID_PRIORITY: 'MCL: Invalid priority',
+   MCL_ERROR_INVALID_ATTRIBUTE: 'MCL: Invalid attribute',
+   MCL_ERROR_WILL_DEADLOCK: 'MCL: Will deadlock',
+   MCL_ERROR_TIME_TOO_LARGE: 'MCL: Time too large',
+   MCL_ERROR_THREAD_FAILURE: 'MCL: Unspecified thread failure',
+   MCL_ERROR_UNKNOWN: 'MCL: Unknown error'
+   }
