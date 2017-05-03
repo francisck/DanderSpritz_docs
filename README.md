@@ -1,4 +1,4 @@
-#DanderSpirtz documentation
+# DanderSpirtz documentation
 The goal of this project is to document the different capabilities and functionality of the DanderSpirtz post-exploitation framework / application by examining the contents of the "resources" folder included in the ShadowBrokers leak and doing live testing of the system.
 
 _**Note**_: This respository does **not** contain all of the FuzzBunch code, exploits, binaries, etc. The repository _only_ contains the files found in the _Windows/Resources/_ directory included in the leak. 
@@ -7,12 +7,12 @@ If you're interested in viewing the entire contents of the leak use this repo:
 
 [EQGRP\_Lost\_in_Translation](https://github.com/x0rz/EQGRP\_Lost\_in\_Translation)
 
-#Python bytecode has been decompiled
+# Python bytecode has been decompiled
 The original ShadowBrokers leak had most of the python scripts compiled into optimized bytecode (.pyo). In order to make this reversing / documentation effort easier I've decompiled the code and uploaded the "raw" python code to this repository
 
 The original python bytecode files have been left intact
 
-#Resource Codenames and capabilities
+# Resource Codenames and capabilities
 The sub-directories in the "Resources" directory contain different modules which are used by DanderSpirtz to provide capabilities such as packet capture, memory dumps, etc. 
 
 Below are the codenames that correspond to the differrent modules and the potentail capabilities based on examining the python code, comments, XML, available "command" txt files
@@ -74,30 +74,3 @@ Below are the codenames that correspond to the differrent modules and the potent
 **Utbu** - _**UtilityBurst**_ - Appears to be a mechanism for persistence via a driver install _unsure_ (based on UtBu/Scripts/Include/_UtilityBurstFunctions.dsi)
 
 **ZBng** - _**ZippyBang**_ - Looking at this quickly, it appears to be the NSA's version of Mimikatz. It can duplicate tokens (Kerberos tokens?) and "remote execute commands" as well as logon as users (based on files in ZBng/Commands/CommandLine)
-
-
-**STSentrytribe (ST)
-Territorialdispute (Tedi) - Seems like some kind of data collection script. Maybe it is used to find AV systems?  
-UtilityBurst (UtBu) - ??
-Extremelbail - Force the logon of a specific user
-Zippybang (zbng) - The NSAs mimi katz
-FlewAvenue (FlAV) - 
-Killsuit - 
-BroughtHotShot
-DoubleFeature (DF) - 
-GansterThief (GaTH) - 
-DoormanGauze (dmGZ) - 
-DanderSpritz (DSZ) 
-DoorwayNapkin
-ExpandingPulley - This seems huge! This is similar to peddlecheap! 
-Gezu - Dumps memory
-Glcl - Dumps process memory
-GreaterDoctor - Master File Table parser 
-GreaterSurgeon - Analysis data gathered by GreaterDoctor
-Grok - ?? - Potential key logger based on data in \ops\pyscrips\overseer\plugins\keylogger.py
-Ops Folder:
-    Ripper - Gets chrome, Skype, firefox, etc
-    Overseers - Pulls data? 
-    scansweep - Like nmap?
-PaperCut (PaCu) - 
-ScRe - Seems to do SQL related stuff. 
