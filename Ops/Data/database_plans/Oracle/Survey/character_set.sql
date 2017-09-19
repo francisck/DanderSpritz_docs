@@ -1,1 +1,0 @@
-select 'environment -var NLS_LANG -set AMERICAN_AMERICA.' || value from NLS_DATABASE_PARAMETERS where PARAMETER = 'NLS_CHARACTERSET'

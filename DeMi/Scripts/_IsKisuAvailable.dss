@@ -1,3 +1,0 @@
-
-
-return `available -command kisu_install` && `available -command kisu_connect`;

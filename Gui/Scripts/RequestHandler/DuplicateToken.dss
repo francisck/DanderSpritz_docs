@@ -1,7 +1,0 @@
-@include "_RequestIncludes.dsi";
-@echo off;
-
-#_WaitForOpening();
-bool $bRet = _IndirectExection("duplicatetoken", $ARGV);
-#_TaskFinished();
-return $bRet;

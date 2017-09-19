@@ -1,2 +1,0 @@
-filter:tcp port 110
-netmask:255.255.255.0

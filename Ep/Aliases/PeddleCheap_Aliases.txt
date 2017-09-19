@@ -1,3 +1,0 @@
-install		script Level4.eps INSTALL
-upgrade		script Level4.eps UPGRADE
-uninstall	script Uninstall.eps

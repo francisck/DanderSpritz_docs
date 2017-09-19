@@ -1,2 +1,0 @@
-keeperlatch	script KeeperLatch\LotusMail.eps
-kl_setup	script KeeperLatch\SetupEnv.eps

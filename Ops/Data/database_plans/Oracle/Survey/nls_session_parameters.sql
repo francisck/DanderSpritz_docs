@@ -1,1 +1,0 @@
-select * from NLS_SESSION_PARAMETERS
