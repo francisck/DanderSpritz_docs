@@ -1,0 +1,26 @@
+---
+---
+
+@import 'jekyll-theme-architect';
+#large-main-content { float: left; width: 850px; }
+#large-main-content h1 { margin-top: 0; margin-bottom: 0; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 2.8em; font-weight: normal; color: #474747; text-indent: 6px; letter-spacing: -1px; }
+
+#large-main-content h1:before { padding-right: 0.3em; margin-left: -0.9em; color: #9ddcff; content: "/"; }
+
+#large-main-content h2 { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 22px; font-weight: bold; color: #474747; text-indent: 4px; }
+
+#large-main-content h2:before { padding-right: 0.3em; margin-left: -1.5em; content: "//"; color: #9ddcff; }
+
+#large-main-content h3 { margin-top: 24px; margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 18px; font-weight: bold; color: #474747; text-indent: 3px; }
+
+#large-main-content h3:before { padding-right: 0.3em; margin-left: -2em; content: "///"; color: #9ddcff; }
+
+#large-main-content h4 { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 15px; font-weight: bold; color: #474747; text-indent: 3px; }
+
+h4:before { padding-right: 0.3em; margin-left: -2.8em; content: "////"; color: #9ddcff; }
+
+#large-main-content h5 { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 14px; color: #474747; text-indent: 3px; }
+
+h5:before { padding-right: 0.3em; margin-left: -3.2em; content: "/////"; color: #9ddcff; }
+
+#large-main-content h6 { margin-bottom: 8px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: .8em; color: #474747; text-indent: 3px; }

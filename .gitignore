@@ -1,0 +1,7 @@
+#ignore jekyll stuff
+.bundle/
+.DS_Store
+vendor/
+_site
+Gemfile.lock
+template.md
