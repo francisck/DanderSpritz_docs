@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1)DanderSpirtz documentation
+# [](#header-1)DanderSpritz documentation
 
 The goal of this project is to document the different capabilities and functionality of the DanderSpirtz post-exploitation framework by examining the contents of the “resources” folder included in the ShadowBrokers leak _and_ doing live testing of the framework on lab systems. 
 
@@ -27,6 +27,7 @@ DanderSpritz was leaked by [The Shadow Brokers](https://en.wikipedia.org/wiki/Th
 *   [Setting up DanderSpritz](setup)
 *   [DanderSpritz Terms & Code Names](terms)
 *   [DanderSpritz Operations](operation)
+*	[DanderSpritz Plugins (tools) & Commands](plugins)
 *   [Safety Handlers](safety)
 *   [AV & Security Product Bypasses](psp_bypass)
 *   [Logging Bypasses & Modifications](logging_bypass)
@@ -39,11 +40,11 @@ DanderSpritz was leaked by [The Shadow Brokers](https://en.wikipedia.org/wiki/Th
 ## [](#header-2)Blog Posts
 
 *   [DanderSpritz Overview Part 1 (Information gathering, AV bypasses, and security auditing bypasses)](https://medium.com/francisck/the-equation-groups-post-exploitation-tools-danderspritz-and-more-part-1-a1a6372435cd)
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   Blog #2 is coming soon
+*   Blog #3 is coming soon
 
 ## [](#header-2)Presentation 
 
+A PDF of my presentation about DanderSpritz at Derbycon 7.0 is available [here](https://www.dropbox.com/s/xf0b4xtqs6b0za4/Derby_preso.pdf?dl=0)
+
 A recording of my presentation about DanderSpritz at Derbycon 7.0 is coming soon
-
-
