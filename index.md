@@ -10,7 +10,7 @@ _Note_: This is a documentation project that does **not** contain all of the Fuz
 
 If you’re interested in viewing the entire contents of the leak use this repo _including_ the files and data necessary to use the framework, please use this repo:
 
-[EQGRP Lost in Translation](https://github.com/x0rz/EQGRP/_Lost/_in/_Translation).
+[EQGRP Lost in Translation](https://github.com/x0rz/EQGRP_Lost_in_Translation).
 
 _**Disclaimer**_: This project is intended to be used by information security researchers who are interested in understanding the capabilities of frameworks used by real-life nation state adversaries. I am not responsible if you choose to use my work or this documentation to do something dumb and illegal. 
 
@@ -37,14 +37,22 @@ DanderSpritz was leaked by [The Shadow Brokers](https://en.wikipedia.org/wiki/Th
 *   [Lateral Movement](lateral)
 *   [Data Identification and Exfiltration](exfil)
 
+## [](#header-2)DanderSpritz lab
+
+![](assets/DanderSpritz_lab.png)
+
+I've published [DanderSpritz_lab](https://github.com/francisck/DanderSpritz_lab) a series of packer and vagrant scripts that build a fully functional DanderSpritz lab in as little as two commands.
+
+If you're trying to get DanderSpritz up and running in a lab environment quickly - I highly recommend that you use DanderSpritz lab instead of installing and configuring it manually. However, if you would prefer to configure it yourself, please visit the [DanderSpritz set up page](setup)
+
 ## [](#header-2)Blog Posts
 
 *   [DanderSpritz Overview Part 1 (Information gathering, AV bypasses, and security auditing bypasses)](https://medium.com/francisck/the-equation-groups-post-exploitation-tools-danderspritz-and-more-part-1-a1a6372435cd)
-*   Blog #2 is coming soon
+*   [Introducing DanderSpritz_lab (build a fully working lab in as little as 2 commands)](https://medium.com/@francisck/introducing-danderspritz-lab-461912313d7c)
 *   Blog #3 is coming soon
 
 ## [](#header-2)Presentation 
 
-A PDF of my presentation about DanderSpritz at Derbycon 7.0 is available [here](https://www.dropbox.com/s/xf0b4xtqs6b0za4/Derby_preso.pdf?dl=0)
+A PDF of my presentation about DanderSpritz at Derbycon 7.0 is available [here](https://www.dropbox.com/s/xf0b4xtqs6b0za4/Derby_preso.pdf?dl=0ch )
 
-A recording of my presentation about DanderSpritz at Derbycon 7.0 is coming soon
+A recording of my presentation about DanderSpritz at Derbycon 7.0 is available [here](https://www.youtube.com/watch?v=Zqw-T1YQKUQ)
